@@ -1,0 +1,27 @@
+{
+  "name": "waterlooworks-exporter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exporter for WaterlooWorks job postings.",
+  "scripts": {
+    "start": "node export-waterlooworks.mjs",
+    "check": "node --check export-waterlooworks.mjs"
+  },
+  "keywords": [
+    "waterlooworks",
+    "uwaterloo",
+    "coop",
+    "jobs",
+    "export",
+    "scraper"
+  ],
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "playwright": "^1.60.0"
+  }
+}
