@@ -7,7 +7,7 @@ The tool opens WaterlooWorks in Chromium, lets you log in and choose filters man
 ## Setup
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/matt4tch/waterlooworks-exporter.git
 cd waterlooworks-exporter
 npm install
 ```
